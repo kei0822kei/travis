@@ -2,8 +2,10 @@
 # -*- coding: utf-8 -*-
 
 import unittest
+import sys
+sys.path.append('../src')
 
-from module.add import add
+from add import add
 
 
 class TestAdd(unittest.TestCase):
